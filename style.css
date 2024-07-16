@@ -113,10 +113,6 @@ li{
 .features .box:nth-child(6) h6{
   background-color: #fff2e5;
 }
-.product-cart-master{
-    display: flex;
-    flex-direction: row;
-}
 .products .product-cart-master{
     display: flex;
     flex-wrap: wrap;
@@ -149,4 +145,22 @@ li{
   .products .product-cart img {
     width: 100%;
     border-radius: 25px;
+  }
+  .product-cart span{
+    color: #969696;
+  }
+  .fa-star{
+    color: gold;
+  }
+  .product-cart .price{
+    color: #088178;
+  }
+  .fa-cart-shopping{
+    color: #088178;
+  background-color: #c7e9e75e;
+  padding: 15px;
+  border-radius: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
   }
