@@ -137,7 +137,7 @@ li{
 .product-cart{
     z-index: 0;
 }
-.products .product-cart {
+.products .product-cart{
     width: 280px;
     border: 1px solid #ebebeb;
     padding: 13px;
