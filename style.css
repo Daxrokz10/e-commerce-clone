@@ -216,3 +216,52 @@ li{
   width: 580px;
   background-image: url(./images/banner/b10.jpg);
 }
+.smallbanners{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.smallbanner1{
+  margin: 20px;
+  width: 370px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner/b7.jpg);
+}
+.smallbanner2{
+  margin: 20px;
+  width: 370px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner/b4.jpg);
+}
+.smallbanner3{
+  margin: 20px;
+  width: 370px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner/b18.jpg);
+}
+.bannerbutton{
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+  height: 45px;
+  width: 110px;
+  background-color: transparent;
+  border: 1px white solid;
+  transition: .2s;
+}
+.bannerbutton:hover{
+  background-color: #088178;
+  border: 0px;
+}
+.smallbanners h2,h5{
+  margin-left: 20px;
+}
+.smallbanners h2{
+  margin-top: 80px;
+}
+.smallbanners h5{
+  color: #771818;
+}
