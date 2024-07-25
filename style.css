@@ -454,4 +454,23 @@ ul{
   margin-left: 35px;
   font-size: 36px;
 }
+.banners{
+  display: none;
+}
+#email-input{
+height: 25px;
+width: 150px;
+margin-left: 20px;
+}
+.news-button{
+height: 25px;
+margin-left: 20px;
+}
+.news-text h3{
+padding: 0 0 0 0;
+font-size: 20px;
+}
+.news-text h5{
+font-size: 10px;
+}
 }
