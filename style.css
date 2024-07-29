@@ -27,6 +27,10 @@ li{
     margin: 0 10px;
     list-style: none;
 }
+.fa-bars{
+  display: none!important;
+  color: black;
+}
 .logo{
     height: 40px;
     width: 140px;
@@ -364,10 +368,7 @@ li{
   bottom: -4px;
   left: 20px;
 }
-.fa-bars{
-  display: none;
-  color: black;
-}
+
 @media only screen and (max-width: 450px){
 #header{
   left: 0;
@@ -398,13 +399,12 @@ nav{
     left: 0;
 }
 .fa-bars{
-  display:none;
   color: #088178;
   margin-left: 200px;
   transition: 0.2s ease;
 }
 .fa-bars:active{
-  transform: rotate(360deg);
+  transform: rotate(90deg);
 }
 ul{
   display: none;
