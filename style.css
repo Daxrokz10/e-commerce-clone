@@ -75,6 +75,9 @@ li{
     background-size: cover;
     font-size: 20px;
 }
+.container button:hover{
+  cursor: pointer;
+}
 .features{
     display: flex;
     flex-direction: row;
@@ -523,5 +526,10 @@ footer{
 }
 .download img{
   width: 20px;
+}
+}
+@media only screen and (max-width: 1920px){
+  .container{
+    width: 92.4%;
 }
 }
